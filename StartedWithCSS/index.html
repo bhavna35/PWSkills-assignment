@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Example Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS - Styling for the 'content' class */
+        .content {
+            background-color: lightblue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS - Styling for the 'header' div -->
+    <div style="background-color: lightgreen; padding: 10px;">
+        <h1>Inline CSS Example</h1>
+        <p>This div uses inline CSS for styling.</p>
+    </div>
+
+    <!-- Internal CSS - Styling applied from the 'style' element in the head -->
+    <div class="content">
+        <h1>Internal CSS Example</h1>
+        <p>This div uses internal CSS for styling.</p>
+    </div>
+
+    <!-- External CSS - Styling from an external CSS file -->
+    <!-- Inline CSS always takes precedence over internal and external CSS -->
+    <div class="external-style" style="background: yellow;">
+        <h1>External CSS Example</h1>
+        <p>This div uses external CSS for styling.</p>
+    </div>
+</body>
+</html>

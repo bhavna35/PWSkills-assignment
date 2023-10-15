@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Paragraphs</title>
+  <style>
+    /* Define CSS rules using class selectors with BEM naming */
+    .paragraph {
+      font-size: 16px;
+      margin-bottom: 10px;
+      background-color: yellow;
+      padding: 10px;
+    }
+  .paragraph__special-text {
+      color: blue;
+      background-color: red;
+    }
+
+    .paragraph__italic {
+      font-style: italic;
+      background-color: green;
+    }
+
+    .paragraph__large {
+      font-size: 24px;
+      background-color: greenyellow;
+    }
+
+    .paragraph__small {
+      font-size: 12px;
+      background-color: orangered;
+    }
+  </style>
+</head>
+
+<body>
+  <p class="paragraph">This is a regular paragraph.</p>
+  <p class="paragraph paragraph__special-text">This paragraph has some special text.</p>
+  <p class="paragraph paragraph__italic">This paragraph has italic text.</p>
+  <p class="paragraph paragraph__large">This paragraph has a larger font size.</p>
+  <p class="paragraph paragraph__small">This paragraph has a smaller font size.</p>
+</body>
+
+</html>
+
+
+<!-- .paragraph: This is the block class, representing a generic paragraph. It provides basic styling common to all paragraphs.
+
+  .paragraph__special-text: This is another element class, indicating that specific text within the paragraph should be blue.
+
+.paragraph__italic: This element class specifies that text should be styled with italics.
+
+.paragraph__large and .paragraph__small: These element classes adjust the font size to be larger or smaller, respectively. -->
