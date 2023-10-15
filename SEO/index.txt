@@ -1,1 +1,45 @@
+Q1. What is SEO and explain the importance of SEO?
+Solution -
+SEO stands for Search Engine Optimization. It helps you optimize your websites so that they have better
+rankings on Search Engines like Google, Bing, and Yahoo.
+
+The ultimate goal of SEO is to rank higher in search engine results pages for relevant keywords and phrases,
+which can increase visibility, traffic, and ultimately revenue for the website.
+
+The importance of SEO - Meta tags are important for SEO because they provide information to search engines about the content on your
+site and can help improve your website's visibility and ranking in search engine results pages.
+
+SEO helps improve a website's visibility on search engine results pages (SERPs). When your website ranks higher in search results, more people are likely to find and visit it. This increased visibility is crucial for attracting organic (non-paid) traffic.
+
+
+Q2. What are the Benefits of Using Meta Tags
+Solution 
+
+Meta tags are HTML elements that provide metadata about a web page. They are not visible to the site's visitors but are used by search engines and web browsers to understand and display information about the page. Here are some of the benefits of using meta tags:
+1. Improved Search Engine Optimization (SEO)
+2. Better User Experience
+3. Social Sharing
+4. Accessibility
+5. Improved Categorization
+
+Q3. Define Favicon and give an illustrative example.
+Solution -
+A favicon that stands for a favorite icon is a tiny icon included along with a website, which is displayed in places
+like the browser's address bar, page tabs, and bookmarks menu. It is usually 16 * 16 pixels in size and stored in
+GIF, PNG, or ICO file format.
+They are used to improve user experience and enforce brand consistency. When a familiar icon is seen in the
+browser address bar.
+Example -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BookWorld - Your Online Bookstore</title>
+<!-- Favicon -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+</body>
 
