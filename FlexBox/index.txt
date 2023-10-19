@@ -30,3 +30,27 @@ When to Choose Grid:
 Choose Grid when you need to create complex two-dimensional layouts, such as grids of images, cards, or articles.
 Grid is ideal when you want fine-grained control over rows, columns, and gaps in your layout.
 When you need to precisely position items within a grid, and it's important to control where each element goes within a defined grid structure.
+
+
+
+
+2.  Explain the role of following key propeerties in flexbox layout model.
+a.  justify-content
+b.  align-items
+c.  align-content
+d.  flex-direction
+e.  flex-wrap
+
+
+justify-content: This property controls how items are distributed along the main axis (horizontally, in the case of flex-direction: row). Values can include flex-start (default), flex-end, center, space-between, and space-around, among others.
+
+align-items: This property controls how items are aligned on the cross-axis (vertically, in the case of flex-direction: row). Values include flex-start, flex-end, center, baseline, and stretch.
+
+align-content: This property is used to control how multiple lines of items are aligned on the cross-axis. It works when there is extra space within the flex container. Values can include flex-start, flex-end, center, space-between, and space-around, similar to justify-content.
+
+flex-direction: This property sets the direction of the main axis. It can be row (default), row-reverse, column, or column-reverse.
+
+flex-wrap: This property controls whether flex items should wrap onto a new line when they don't fit on the main axis. Values include nowrap (default), wrap, and wrap-reverse
+
+gap:  The gap property is used to specify the gap between flex items in a flex container.
+It works only along the main axis (either horizontally or vertically) depending on the flex-direction property.
