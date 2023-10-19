@@ -1,0 +1,32 @@
+1.  Describe the main difference between CSS flexbox layout model and CSS grid layout model. When would you choose to use one over the another. 
+
+The main difference between the CSS Flexbox layout model and the CSS Grid layout model lies in how they control the layout and positioning of elements within a container.
+Here are the key distinctions between the two, along with guidance on when to choose one over the other:
+
+
+CSS Flexbox:
+
+One-Dimensional Layout: Flexbox is designed for one-dimensional layouts, either in a row or a column. It's excellent for arranging items along a single axis, such as in a navigation menu or a list of items.
+Dynamic Sizing: Flexbox allows items to expand or shrink based on available space and their content. It's ideal for situations where the size of the items may vary.
+Content-Centered Alignment: It excels at centering items both horizontally and vertically within a container.
+Order Control: You can easily change the order of items, which is useful for responsive design or reordering content.
+
+
+CSS Grid:
+
+Two-Dimensional Layout: Grid is designed for two-dimensional layouts. It allows you to create rows and columns, making it perfect for complex layouts like grids of images or articles.
+Fixed or Responsive Sizing: Grid provides more control over fixed or responsive sizing of rows and columns. You can specify exact dimensions or let content determine the size.
+Grid Gaps: You can add gaps between rows and columns with ease, creating a structured grid with consistent spacing.
+Item Placement: Grid allows you to precisely position items within the grid cells. You can place items anywhere in the grid, making it great for intricate designs.
+
+When to Choose Flexbox:
+
+Use Flexbox when dealing with one-dimensional layouts, like navigation menus, sidebars, or arranging elements within a single container.
+Flexbox is great for content-centered alignment, such as vertically aligning items within a container.
+When the order of items needs to change for responsive design without altering the HTML structure.
+
+When to Choose Grid:
+
+Choose Grid when you need to create complex two-dimensional layouts, such as grids of images, cards, or articles.
+Grid is ideal when you want fine-grained control over rows, columns, and gaps in your layout.
+When you need to precisely position items within a grid, and it's important to control where each element goes within a defined grid structure.
