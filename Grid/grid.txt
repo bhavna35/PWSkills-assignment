@@ -1,1 +1,79 @@
 
+
+1.  Explain the use of grid-auto-row and grid-auto-column using code examples.
+
+
+ANS:
+    In CSS Grid Layout, grid-auto-row and grid-auto-column are properties that allow you to define the size of implicit grid tracks (rows or columns) that are created when grid items are placed outside the explicitly defined grid. These properties come into play when grid items are placed in a grid position beyond the explicitly specified rows or columns.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid-auto-row and grid-auto-column Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 100px 100px;
+      grid-template-rows: 100px 100px;
+      grid-gap: 10px;
+      grid-auto-rows: 50px; /* Setting the height of implicitly created rows */
+      grid-auto-columns: 50px; /* Setting the width of implicitly created columns */
+    }
+
+    .grid-item {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <!-- This item will be placed in an implicitly created row and column -->
+    <div class="grid-item">8</div>
+  </div>
+</body>
+</html>
+
+
+2.  Explain the difference between justify-items and justify-self using code examples.
+
+
+In CSS Grid Layout, justify-items and justify-self are properties that control the horizontal alignment of grid items within a grid container. However, they are applied at different levels in the grid structure.
+
+The main difference between them is that justify-items apply to grid containers and justify-self applies to grid-
+items.
+
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: center; /* Default horizontal alignment for all items */
+}
+
+.grid-item {
+  height: 100px;
+  background-color: lightblue;
+  justify-self: end; /* This specific item will be aligned to the end */
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+<div class="grid-item">Box 1</div>
+<div class="grid-item">Box 2</div>
+<div class="grid-item">Box 3</div>
+<div class="grid-item">Box 4</div>
+<div class="grid-item">Box 5</div>
+</div>
+</body>
+</html>
