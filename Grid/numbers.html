@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numbers</title>
+  <style>
+    .container {
+      width: 600px;
+      display: grid;
+      grid-template-columns: repeat(6, 100px);
+      grid-gap: 20px;
+    }
+
+    .box {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 20px;
+    }
+
+    .box:nth-child(even) {
+      background-color: #ccc;
+      color: #000;
+    }
+
+    .box1 {
+      order: 3;
+    }
+
+    .box2 {
+      order: 6;
+    }
+
+    .box8 {
+      order: 2;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box box8">8</div>
+  </div>
+</body>
+
+</html>
