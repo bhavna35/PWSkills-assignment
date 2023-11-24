@@ -1,0 +1,70 @@
+    /* Combinator Selectors */
+
+    /* Target all anchor tags and change text color to red */
+    nav a {
+      color: red;
+    }
+
+    /* Target only the first h2 tag and change text and background color */
+    nav>h2:first-of-type {
+      color: white;
+      /* Text color */
+      background-color: blue;
+      /* Background color */
+      text-align: center;
+    }
+
+    /* Select the first p tag and change text color to red */
+    nav>p:first-of-type {
+      color: red;
+    }
+
+    /* Attribute Selector */
+    /* Target anchor tag with attribute "href" and change color to red and remove text underline */
+    a[href] {
+      color: red;
+      text-decoration: none;
+      /* Remove text underline */
+    }
+
+    a[class="active"] {
+      color: blue;
+      /* Change text color */
+      text-decoration: underline;
+      /* Add text underline */
+    }
+
+    a[target="_self"] {
+      background-color: yellow;
+      /* Change background color */
+    }
+
+    /* Pseudo Selector */
+    p:last-of-type::after {
+      content: "...";
+      /* Add three dots after the content of the last <p> tag */
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    ul li::before {
+      content: "\2022";
+      /* Unicode character for bullet point */
+      color: green;
+      /* Change color of the bullet points */
+      display: inline-block;
+      width: 1em;
+      /* Adjust the width for spacing */
+    }
+
+    p:nth-of-type(2) {
+      /* Select the first letter of the second <p> tag and change color to red */
+      color: blue;
+    }
+
+    /* Increase the font size of the first letter of the second <p> tag to 30px */
+    p:nth-of-type(2)::first-letter {
+      font-size: 30px;
+    }
