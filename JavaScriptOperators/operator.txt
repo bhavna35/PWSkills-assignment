@@ -1,0 +1,14 @@
+1.  Explain the usage of ternary operator with syntax.
+
+Ternary operator is used to test the conditions similar to that of an if else block. It has three operands: condition,
+statement if condition is true and statement if condition will be false.
+
+Condition ? value if true : value if false;
+
+2.  Describe the usage of the comma operator in JavaScript and provide an example.
+Solution: Comma operator allows us to evaluate multiple expressions in a single statement like declaring multiple
+variables in a single statement separating them with the comma operator.
+
+Example:
+const a = 10, b = 20, c=30;
+console.log(a+b+c);
