@@ -1,0 +1,58 @@
+Q1. What are conditional statements? Explain conditional statements with syntax and examples.
+
+Solution: Conditional statements in programming are used to make decisions based on certain conditions. These statements allow your program to execute different blocks of code depending on whether a specified condition evaluates to true or false. Conditional statements are crucial for controlling the flow of a program and enabling it to respond dynamically to different situations.
+
+There are mainly two types of conditional statements: if statements and if-else statements.
+1.  if Statement:
+
+    if(condition)
+    {
+        //Code to be executed if condition1 is true
+    }
+
+2. if-else Statement:
+
+    if(condition)
+    {
+      // Code to be Executed if condition1 is true
+    }
+    else
+    {
+      // Code to be Executed if condition1 is true
+    }
+
+3. if-else if-else Statement:
+
+    if (condition1) {
+    // Code to be executed if condition1 is true
+    } else if (condition2) {
+    // Code to be executed if condition2 is true
+    } else {
+    // Code to be executed if none of the conditions is true
+    }
+
+
+Q2. What are loops, and what do we need them? Explain different types of loops with their syntax and
+examples.
+
+Solution :
+
+Loops in programming are structures that allow you to repeat a set of instructions or statements multiple times. They are essential for automating repetitive tasks and iterating over data. Loops help in writing more concise and efficient code by reducing redundancy and promoting code reusability.
+
+
+1.  for Loop:
+for (initialization; condition; increment/decrement) {
+    // Code to be repeated
+}
+
+2. while Loop:
+
+while (condition) {
+    // Code to be repeated
+}
+
+3. do-while loop:
+
+do {
+    // Code to be repeated
+} while (condition);
