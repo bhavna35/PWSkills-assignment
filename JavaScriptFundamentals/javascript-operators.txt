@@ -1,0 +1,93 @@
+﻿Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+
+
+Operators in JavaScript are symbols or keywords that perform operations on one or more operands, producing a result. These operations can involve mathematical calculations, logical comparisons, assignment of values, and more. Operators play a fundamental role in programming for several reasons:
+
+
+Operators are essential in programming because they provide the tools needed to manipulate, compare, and operate on data, ultimately allowing developers to create dynamic and functional software.
+
+
+
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+
+
+
+Operators in JavaScript can be categorized based on their functionality into several groups. Here are some of the main categories:
+1. Arithmetic Operators:
+* Perform mathematical calculations on numeric values.
+* Example: Addition, Subtraction, Multiplication, Division, Modulus
+2. Assignment Operators:
+* Assign values to variables.
+* Example : x = 5 , x+=6 
+3. Comparison Operators:
+* Compare values and return Boolean results.
+* Examples: isEqual(==), isNotEqual(!=), greater than(>), lessthanOrEqual(<=)
+4. Logical Operators:
+* Perform logical operations and return Boolean results.
+* Examples:  AND(&&), OR(||), NOT(!)
+5. Unary Operators:
+* Operate on a single operand.
+* Examples: Increment(++), Decrement(--)
+6. Conditional (Ternary) Operator:
+* A shorthand way of writing if-else statements.
+* Example: let result = (x>0) ? ‘Positive’ : ‘Negative’
+7. Bitwise Operators:
+* Perform bitwise operations on integers.
+* Examples: bitWiseAnd (&), bitWiseOr (|), bitWiseXOR (^), bitwiseNOT (~)
+8. String Concatenation Operator:
+* Concatenate strings.
+* Example:let greeting = ‘Hello’ + ‘World’
+9. Typeof Operator:
+* Determine the data type of a variable.
+* Example: let type = typeOf(x)
+
+
+
+
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+
+In JavaScript, operators are classified based on the number of operands they work with. Here's a differentiation between unary, binary, and ternary operators, along with examples:
+1. Unary Operators:
+* Definition: Unary operators operate on a single operand.
+* Example: let count = 0; count++;
+2. Binary Operators:
+* Definition: Binary operators operate on two operands
+* Example: let a =5, b=6; let sum = a+b;
+3. Ternary Operator:
+* Definition: The ternary operator is a unique operator in JavaScript that takes three operands.
+* Example: let eligibility = (20>=18)? ‘Eligible’:’Not Eligible’;
+These classifications are based on the number of operands and operator takes, and understanding these distinctions is fundamental for working with operators in JavaScript. Unary operators require one operand, binary operators require two operands, and the ternary operator involves three operands for conditional expressions.
+
+
+
+
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts important?
+
+
+In JavaScript, operator precedence and associativity define the order in which operators are evaluated in expressions. Understanding these concepts is crucial for writing code with predictable behavior, as they determine how expressions are parsed and executed.
+
+
+
+
+1. Operator Precedence:
+* Definition: Operator precedence establishes the order in which different types of operators are evaluated in an expression. Operators with higher precedence are evaluated first.
+
+
+
+
+
+
+2. Associativity:
+* Definition: Associativity determines the order in which operators of the same precedence are evaluated. It can be left-to-right or right-to-left.
+
+
+* Understanding operator precedence helps avoid ambiguity in expressions. It ensures that operators are evaluated in the intended order.
+
+
+* When writing code, adhering to common conventions of operator precedence improves code readability. It makes the code more understandable to other developers.
+* Incorrect assumptions about operator precedence or associativity can lead to logic errors. Understanding these concepts is crucial for debugging and fixing such issues.
+* Knowing the rules for operator precedence and associativity ensures that expressions behave predictably across different environments and implementations.
+* Knowledge of precedence allows developers to write expressions with fewer parentheses when the default order of evaluation aligns with the desired behavior.
