@@ -1,0 +1,48 @@
+Q5. List and briefly explain some common Browser APIs available to JavaScript developers.
+
+JavaScript developers have access to various Browser APIs (Application Programming Interfaces) that allow them to interact with different aspects of the browser and its environment. Here are some common Browser APIs available to JavaScript developers:
+
+
+JavaScript developers have access to various Browser APIs (Application Programming Interfaces) that allow them to interact with different aspects of the browser and its environment. Here are some common Browser APIs available to JavaScript developers:
+
+1.DOM (Document Object Model) API:
+
+The DOM API allows developers to access, manipulate, and modify the structure and content of HTML and XML documents.
+It provides methods and properties to create, delete, and modify elements, as well as handle events such as clicks, keypresses, and form submissions.
+Common methods include getElementById, querySelector, addEventListener, createElement, appendChild, etc.
+
+2.Web Storage API:
+
+The Web Storage API allows developers to store key-value pairs locally in the user's browser.
+It includes two storage mechanisms: localStorage (persistent storage that persists even after the browser is closed) and sessionStorage (storage that is cleared when the browser session ends).
+Common methods include setItem, getItem, removeItem, clear for interacting with the stored data.
+
+3.Fetch API:
+
+The Fetch API allows developers to make HTTP requests (GET, POST, PUT, DELETE, etc.) to fetch resources from a server asynchronously.
+It provides a more modern alternative to XMLHttpRequest (XHR) for AJAX requests and supports promises for handling responses.
+Common methods include fetch for making requests and handling responses using promises.
+
+4.Canvas API:
+
+The Canvas API allows developers to dynamically draw graphics, animations, and interactive content on a web page using JavaScript.
+It provides a 2D drawing context (CanvasRenderingContext2D) and supports methods for drawing shapes, text, images, and applying transformations.
+Common methods include fillRect, drawImage, fillText, beginPath, stroke, etc.
+
+5.Geolocation API:
+
+The Geolocation API allows developers to retrieve the geographical location (latitude and longitude) of the user's device.
+It enables web applications to provide location-based services such as mapping, navigation, weather information, and local search.
+Common methods include getCurrentPosition for retrieving the current position and handling location updates.
+
+6.Web Audio API:
+
+The Web Audio API allows developers to create, manipulate, and play audio in web applications.
+It provides a powerful set of features for generating and processing audio, creating audio effects, and controlling playback.
+Common methods include createContext, createOscillator, createGain, connect, start, stop, etc.
+
+7. IndexedDB API:
+
+The IndexedDB API allows developers to create, read, write, and delete structured data (key-value pairs, objects, etc.) in the browser's local database.
+It provides a scalable and persistent storage solution for web applications, enabling offline data storage and complex data querying.
+Common methods include open, transaction, getObjectStore, put, get, delete, clear, etc.

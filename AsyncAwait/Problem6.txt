@@ -1,0 +1,39 @@
+Q6.Describe the purpose and usage of the localStorage and sessionStorage APIs in web development. Give
+suitable examples for each.
+
+The localStorage and sessionStorage APIs are part of the Web Storage API in web development. They allow developers to store key-value pairs locally in the user's browser, providing a way to persistently or temporarily store data across browser sessions.
+
+1.localStorage API:
+
+Purpose: The localStorage API is used to store data with no expiration date, meaning the data will persist even after the browser window is closed and reopened.
+Usage: You can use the localStorage API to store user preferences, settings, user-generated content, or any data that needs to be retained across browser sessions.
+Example: Storing User Preferences
+// Storing user preferences in localStorage
+localStorage.setItem('theme', 'dark');
+localStorage.setItem('language', 'en');
+
+// Retrieving user preferences from localStorage
+const theme = localStorage.getItem('theme');
+const language = localStorage.getItem('language');
+
+console.log('Theme:', theme); // Output: Theme: dark
+console.log('Language:', language); // Output: Language: en
+
+2.sessionStorage API:
+
+Purpose: The sessionStorage API is used to store data for a single browser session. The data is cleared when the browser tab or window is closed.
+Usage: You can use the sessionStorage API to store temporary data, session-specific data, or data that is only needed during the current browser session.
+Example: Storing Session-specific Data
+
+// Storing session-specific data in sessionStorage
+sessionStorage.setItem('username', 'JohnDoe');
+sessionStorage.setItem('isLoggedIn', 'true');
+
+// Retrieving session-specific data from sessionStorage
+const username = sessionStorage.getItem('username');
+const isLoggedIn = sessionStorage.getItem('isLoggedIn');
+
+console.log('Username:', username); // Output: Username: JohnDoe
+console.log('IsLoggedIn:', isLoggedIn); // Output: IsLoggedIn: true
+
+In both examples, we use the setItem method to store key-value pairs (setItem(key, value)) and the getItem method to retrieve the stored values (getItem(key)). Both localStorage and sessionStorage provide similar methods for setting, getting, and removing items (removeItem(key)).

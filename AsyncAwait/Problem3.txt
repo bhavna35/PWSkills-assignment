@@ -1,0 +1,11 @@
+// Q3. What is the same-origin policy in the context of AJAX requests, and how can you work around it?
+
+The same-origin policy is a security feature implemented by web browsers that restricts how documents or scripts loaded from one origin (domain, protocol, or port) can interact with resources from a different origin. This policy helps prevent malicious scripts from accessing sensitive data across different origins, enhancing the security of web applications.
+
+In the context of AJAX requests, the same-origin policy restricts XMLHttpRequest (XHR) or Fetch API requests to the same origin as the requesting script. This means that by default, you cannot make AJAX requests from a web page to a different domain, protocol, or port.
+
+Here's how the same-origin policy affects AJAX requests:
+
+Same-Origin Requests: AJAX requests made from a web page are allowed only if the target URL (the endpoint) has the same origin (domain, protocol, and port) as the web page making the request. This means that requests from https://example.com can only be made to URLs with the same origin, such as https://example.com/api/data.
+
+Cross-Origin Requests (CORS): If you need to make AJAX requests to a different origin (cross-origin request), you need to have CORS (Cross-Origin Resource Sharing) enabled on the server. CORS allows servers to specify which origins are allowed to access their resources through AJAX requests. The server responds with appropriate CORS headers, such as Access-Control-Allow-Origin, Access-Control-Allow-Methods, etc., indicating which origins, methods, and headers are permitted.
