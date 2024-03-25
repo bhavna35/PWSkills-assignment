@@ -140,6 +140,6 @@ GitHub pages.
 
 
 
-YouTube clone - 
-Slack homepage clone - 
-Gmail clones - Gmail -
+YouTube clone - https://github.com/bhavna35/TailwindProject/tree/main/YouTubeClone
+Slack homepage clone - https://github.com/bhavna35/TailwindProject/tree/main/SlackClone
+Gmail clones - Gmail -https://github.com/bhavna35/TailwindProject/tree/main/GmailClone
